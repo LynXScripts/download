@@ -1,0 +1,44 @@
+.block {
+	display: block;
+	background: #0077B6;
+	padding: 15px;
+	cursor: pointer;
+	text-decoration: none;
+	width: 250px;
+	text-align: center;
+	border-radius: 100px;
+	font-size: 20px;
+	transition: 0.3s ease-in-out;
+	position: absolute;
+	top: 800px;
+	left: 300px;
+	border: none;
+	color: #fff;
+	margin-left: 50px;
+}
+.block:hover {
+	background: white;
+}
+
+.welcome {
+	text-align: center;
+	top: 0px;
+	font-size: 50px;
+	font-family: 'Courier New';
+	color: #90E0EF;
+	padding: 10px;
+	margin: 8px;
+}
+
+.lorem {
+	position: absolute;
+	top: 200px;
+	left: 600px;
+	color: #90E0EF;
+	font-family: 'Courier New';
+	letter-spacing: 3px;
+	background: linear-gradient(to top, rgba(0,0,0,0.8)50%, rgba(0,0,0,0.8)50%);
+	border-radius: 10px;
+	padding: 25px;
+	width: 800px;
+}
